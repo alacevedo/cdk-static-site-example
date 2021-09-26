@@ -8,6 +8,11 @@
     "@aws-cdk/aws-secretsmanager:parseOwnedSecretName": true,
     "@aws-cdk/aws-kms:defaultKeyPolicies": true,
     "@aws-cdk/aws-s3:grantWriteWithoutAcl": true,
-    "@aws-cdk/aws-ecs-patterns:removeDefaultDesiredCount": true
+    "@aws-cdk/aws-ecs-patterns:removeDefaultDesiredCount": true,
+    "bucket_site_name": "yourbucketname",
+    "distribution_name": "yourdistributionname",
+    "ssl_domain_name": "yourssldomain",
+    "route53_zone_id": "yourzoneID",
+    "cert_arn": "arn:aws:acm:us-east-1:1234567890:certificate/yourcustomcert"
   }
 }

@@ -10,8 +10,12 @@ from aws_cdk import core
 
 from infra.infra_stack import InfraStack
 
+env_vars = core.Environment(
+            account="144097874706",
+            region="us-east-1")
 
 app = cdk.App()
-InfraStack(app, "infra")
+
+InfraStack(app, "example-static-site", env=env_vars)
 
 app.synth()
