@@ -1,0 +1,6 @@
+-e .
+aws-cdk.aws-s3
+aws_cdk.aws_cloudfront
+aws_cdk.aws_route53
+aws_cdk.aws_certificatemanager
+aws_cdk.aws_route53_targets
